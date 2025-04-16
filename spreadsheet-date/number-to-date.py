@@ -189,7 +189,7 @@ def find_date_manual(remainder_days):
             # Move our reference date to 1st March 2000
             year += 8
             remainder_days -= 2922
-            # A 400 day block is exactly 146097 days. - Like 2000-03-01 to 2400-03-01
+            # A 400 year block is exactly 146097 days. - Like 2000-03-01 to 2400-03-01
             # We don't have to consider anything more than 400 years.
             # We can now take a 'Greedy' approach (see 'Greedy Algorithm')
             # We start with our largest block of 400 years
