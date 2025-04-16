@@ -59,8 +59,8 @@
 #
 # As we are starting at 1st Jan 1990, out next 400 year pattern starts at 1st March 2000 and
 # this has a leap year before it
-#                                  1st March 1600 | B | B | B | B | Y | 1st March 2000
-#       We are here ---------------------------------------------^ 
+#                                  29th February 1600 | B | B | B | B | Y | 1st March 2000
+#       We are here -------------------------------------------------^ 
 #                                     
 # If our date is before 1st March 2000, then we don't need to worry about the 100 year and
 # 400 year patterns, and every year divisible by 4 is a leap year. We can solve the
